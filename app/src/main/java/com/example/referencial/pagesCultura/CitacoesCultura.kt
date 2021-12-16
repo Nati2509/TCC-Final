@@ -31,7 +31,7 @@ class CitacoesCultura : Fragment(), View.OnClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_citacoes_cultura, container, false)
     }
 
@@ -195,7 +195,6 @@ class CitacoesCultura : Fragment(), View.OnClickListener {
         private const val ARG_PARAM1 = "param1"
         private const val ARG_PARAM2 = "param2"
 
-        //        para o fragmento
         fun newInstance(param1: String?, param2: String?): CitacoesCultura {
             val fragment = CitacoesCultura()
             val args = Bundle()

@@ -17,7 +17,6 @@ import com.example.referencial.R
 
 class CitacoesMeioAmbiente : Fragment(), View.OnClickListener {
 
-    // TODO: Rename and change types of parameters
     private var mParam1: String? = null
     private var mParam2: String? = null
 
@@ -190,15 +189,13 @@ class CitacoesMeioAmbiente : Fragment(), View.OnClickListener {
 
     companion object {
         // TODO: Rename parameter arguments, choose names that match
-        // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
         private const val ARG_PARAM1 = "param1"
         private const val ARG_PARAM2 = "param2"
 
         var isFavorite: Boolean = false
         var fIndex: Int = -1
 
-
-        // TODO: Rename and change types and number of parameters
         fun newInstance(param1: String?, param2: String?): CitacoesMeioAmbiente {
             val fragment = CitacoesMeioAmbiente()
             val args = Bundle()

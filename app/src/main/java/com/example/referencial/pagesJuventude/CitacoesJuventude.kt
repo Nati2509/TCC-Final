@@ -29,7 +29,7 @@ class CitacoesJuventude : Fragment(), View.OnClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_citacoes_juventude, container, false)
     }
 
@@ -48,10 +48,10 @@ class CitacoesJuventude : Fragment(), View.OnClickListener {
         val texto4 = getView()?.findViewById<TextView>(R.id.textView4)
         val botao4 = getView()?.findViewById<Button>(R.id.copy_ju4)
 
-        val texto5 = getView()?.findViewById<TextView>(R.id.textView4)
+        val texto5 = getView()?.findViewById<TextView>(R.id.textView5)
         val botao5 = getView()?.findViewById<Button>(R.id.copy_ju5)
 
-        val texto6 = getView()?.findViewById<TextView>(R.id.textView4)
+        val texto6 = getView()?.findViewById<TextView>(R.id.textView6)
         val botao6 = getView()?.findViewById<Button>(R.id.copy_ju6)
 
         val texto7 = getView()?.findViewById<TextView>(R.id.textView7)
@@ -191,7 +191,7 @@ class CitacoesJuventude : Fragment(), View.OnClickListener {
     }
 
         companion object {
-        // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
         private const val ARG_PARAM1 = "param1"
         private const val ARG_PARAM2 = "param2"
 

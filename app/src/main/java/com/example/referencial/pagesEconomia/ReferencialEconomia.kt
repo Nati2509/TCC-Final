@@ -31,7 +31,7 @@ class ReferencialEconomia : Fragment(), View.OnClickListener{
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_referencial_economia, container, false)
     }
 
@@ -69,8 +69,6 @@ class ReferencialEconomia : Fragment(), View.OnClickListener{
         }
 
     }
-
-
 
     companion object {
         // TODO: Rename parameter arguments, choose names that match

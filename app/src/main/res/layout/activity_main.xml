@@ -12,30 +12,11 @@
     tools:context=".MainActivity"
     tools:openDrawer="start">
 
-    <!--    <androidx.drawerlayout.widget.DrawerLayout-->
-    <!--        android:id="@+id/drawer_layout"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent">-->
-    <!-- OBS: mudar a cor de fundo do menu!!!!!!!!!!!!!!!!!!-->
-    <!--    </androidx.drawerlayout.widget.DrawerLayout>-->
-    <!---->
-    <!--    <com.google.android.material.navigation.NavigationView-->
-    <!--        android:id="@+id/navigation_view"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:layout_gravity="start"-->
-    <!--        android:fitsSystemWindows="true"-->
-    <!--        app:headerLayout="@layout/nav_header"-->
-    <!--        app:menu="@menu/nav_menu">-->
-    <!---->
-    <!--    </com.google.android.material.navigation.NavigationView>-->
-
     <LinearLayout
         android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
@@ -57,7 +38,6 @@
             app:alignmentMode="alignMargins"
             app:columnCount="2"
             app:columnOrderPreserved="true">
-
 
             <ImageButton
                 android:id="@+id/botao_cultura"

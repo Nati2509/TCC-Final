@@ -15,7 +15,7 @@ import com.example.referencial.R
 import com.example.referencial.pagesEducacao.DadosEducacao
 
 class ReferencialMeioAmbiente : Fragment(), View.OnClickListener {
-    // TODO: Rename and change types of parameters
+
     private var mParam1: String? = null
     private var mParam2: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +30,7 @@ class ReferencialMeioAmbiente : Fragment(), View.OnClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_referencial_meio_ambiente, container, false)
     }
 

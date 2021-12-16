@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //botões
         val botaoCultura = findViewById<ImageButton>(R.id.botao_cultura)
         botaoCultura.setOnClickListener {
             val intent = Intent(this, ActivityCultura :: class.java)

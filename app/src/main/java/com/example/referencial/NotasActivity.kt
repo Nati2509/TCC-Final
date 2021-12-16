@@ -1,13 +1,22 @@
 package com.example.referencial
 
 import android.annotation.SuppressLint
+import android.app.Activity
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
 import com.google.firebase.storage.FirebaseStorage
@@ -22,10 +31,10 @@ class NotasActivity : AppCompatActivity() {
 
     lateinit var toggle: ActionBarDrawerToggle
 
-    private var mStorage:FirebaseStorage? = null
-    private var mDatabaseRef:DatabaseReference? = null
-    private var mDBListener:ValueEventListener? = null
-    private lateinit var mNotas:MutableList<Nota>
+    private var mStorage: FirebaseStorage? = null
+    private var mDatabaseRef: DatabaseReference? = null
+    private var mDBListener: ValueEventListener? = null
+    private lateinit var mNotas: MutableList<Nota>
     private lateinit var listAdapter: ListAdapter
 
     @SuppressLint("CutPasteId")
@@ -33,15 +42,14 @@ class NotasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_items)
 
-        //firebase
-        /**set adapter*/
+        //firebase - adapter
         mRecyclerView.setHasFixedSize(true)
         mRecyclerView.layoutManager = LinearLayoutManager(this@NotasActivity)
         mNotas = ArrayList()
         listAdapter = ListAdapter(this@NotasActivity, mNotas)
         mRecyclerView.adapter = listAdapter
 
-        /**set Firebase Database*/
+        // firebase - database
         mStorage = FirebaseStorage.getInstance()
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("notas_uploads")
         mDBListener = mDatabaseRef!!.addValueEventListener(object : ValueEventListener {
@@ -60,59 +68,44 @@ class NotasActivity : AppCompatActivity() {
             }
         })
 
-//        val botao1 = findViewById<Button>(R.id.botao_copiar)
-//        val frase = findViewById<TextView>(R.id.nameTextView)
-
-        /* if (botao1 != null) {
-         botao1.setOnClickListener {
-             val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-             val clipData = ClipData.newPlainText("TextView", frase?.text.toString())
-
-             clipboardManager.setPrimaryClip(clipData)
-
-             Toast.makeText(this, "Copiado", Toast.LENGTH_SHORT).show();
-
-         }
-     }*/
-
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.nav_menu, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId){
-            R.id.sobre -> {
-                val intent = Intent(this, ActivitySobre :: class.java)
-                startActivity(intent)
-                true
-            }
-            R.id.addnota -> {
-                val intent = Intent(this, UploadActivity :: class.java)
-                startActivity(intent)
-                true
-            }
-            R.id.minhasnotas -> {
-                val intent = Intent(this, NotasActivity :: class.java)
-                startActivity(intent)
-                true
-            }
-            R.id.categorias -> {
-                val intent = Intent(this, MainActivity :: class.java)
-                startActivity(intent)
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-
-    }
-
-    override fun onDestroy () {
+    override fun onDestroy() {
         super.onDestroy()
         mDatabaseRef!!.removeEventListener(mDBListener!!)
 
     }
+        override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+            val inflater = menuInflater
+            inflater.inflate(R.menu.nav_menu, menu)
+            return super.onCreateOptionsMenu(menu)
+        }
+
+        override fun onOptionsItemSelected(item: MenuItem): Boolean {
+            return when (item.itemId) {
+                R.id.sobre -> {
+                    val intent = Intent(this, ActivitySobre::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.addnota -> {
+                    val intent = Intent(this, UploadActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.minhasnotas -> {
+                    val intent = Intent(this, NotasActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.categorias -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> super.onOptionsItemSelected(item)
+            }
+
+        }
+
 }
