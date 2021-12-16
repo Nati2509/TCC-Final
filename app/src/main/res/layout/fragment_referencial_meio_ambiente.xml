@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesMeioAmbiente.ReferencialMeioAmbiente">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_re5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Repertórios"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/wall_e_2008"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_se_passa_em_2700_e_tem_como_cen_rio_o_planeta_terra_inabit_vel_que_foi_completamente_destru_do_pelos_impactos_ambientais_causados_pelo_lixo_decorrente_de_uma_sociedade_demasiadamente_consumista_e_que_descarta_mais_do_que_utiliza_o_filme_possui_uma_narrativa_que_aborda_como_o_lixo_foi_o_motivo_de_acabar_com_a_terra_e_fazer_com_que_as_pessoas_fossem_morar_em_uma_esta_o_espacial_ao_inv_s_de_tentarem_mudar_seus_h_bitos_nesse_planeta"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ma1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="270dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/seaspiracy_mar_vermelho_2021"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/neste_document_rio_um_cineasta_resolve_documentar_os_danos_causados_pelo_ser_humano_s_esp_cies_marinhas_globais_a_obra_aborda_temas_como_a_infesta_o_de_pl_stico_nos_oceanos_pela_pesca_industrial_a_insustent_vel_cria_o_de_peixes_em_cativeiro_a_posi_o_atrasada_e_desfocada_pelas_ongs_e_a_posi_o_inquestion_vel_de_alguns_pa_ses_em_rela_o_com_os_oceanos"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ma2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="210dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/cowspiracy_o_segredo_da_sustentabilidade_2014"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_document_rio_aborda_sobre_como_a_agropecu_ria_intensiva_est_dizimando_os_recursos_naturais_do_planeta_e_o_motivo_pelo_qual_essa_crise_tem_sido_ignorada_por_grandes_grupos_ambientalistas_de_acordo_com_as_informa_es_apresentadas_a_agropecu_ria_a_principal_causa_do_desmatamento_consumo_de_gua_e_polui_o_al_m_de_ser_o_maior_emissor_de_gases_de_efeito_estufa"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ma3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="250dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/expresso_do_amanh_2020"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesta_s_rie_ap_s_a_humanidade_ignorar_o_problema_do_aquecimento_global_at_seu_ponto_cr_tico_um_grupo_de_cientistas_cria_um_experimento_capaz_de_p_r_fim_a_essa_amea_a_mas_o_plano_sai_do_controle_e_eles_acabam_eliminando_quase_toda_a_vida_da_terra_que_se_transforma_em_um_deserto_de_gelo_e_os_sobreviventes_vagam_pelo_planeta_a_bordo_de_um_trem_ademais_toda_comida_produzida_no_trem_e_a_gua_tratada_provinda_da_neve_a_locomotiva_uma_alegoria_do_mundo_real_pois_desenhada_para_sustentar_a_vida_humana_mesmo_em_casos_extremos"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ma4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="310dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesJuventude.ReferencialJuventude">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_re4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Repertórios"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/divergente_2014"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/a_trilogia_conta_a_hist_ria_de_beatrice_na_futur_stica_cidade_de_chicago_onde_ao_completar_16_anos_os_adolescentes_precisam_escolher_entre_as_diferentes_fac_es_nas_quais_a_cidade_est_dividida_dada_a_liberdade_de_escolha_ap_s_o_teste_mas_sem_poder_voltar_atr_s_a_trama_se_assemelha_ao_dilema_da_escolha_vocacional_em_que_jovens_em_os_adolescentes_precisam_escolher_o_que_far_o_pelo_resto_da_vida"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="240dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Stranger Things (2016)"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Na série situada na cidade ficcional de Hawkins, em 1983, um menino de 12 anos desaparece misteriosamente e o xerife da cidade inicia uma operação para encontrá-lo, enquanto seus amigos decidem procurá-lo por conta própria. Desde o começo a série foca muito nos efeitos do desaparecimento infantil em uma comunidade, com uma mãe desolada, os amigos confusos e a cidade à procura de Will. Ademais, o tema da garantia dos direitos das crianças é abordado no desaparecimento de outras crianças, incluindo sequestro e infanticídio.
+Publicidade infantil: em diversos momentos na série é abordado o impacto da mídia tanto no hiperconsumismo das crianças, como a propaganda de waffles que Onze vê na televisão quanto na frase “russos malvados, russos malvados”, o que demonstra a demonização dos soviéticos na cultura jovem daquela época.
+Adoção: sem a mãe, Onze foge sozinha e é procurada pelos cientistas americanos. Hopper, o detetive da cidade, acolhe e cuida da garota como sua própria filha, o que revela a importância  da vivência familiar para crianças."
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="620dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/crep_sculo_2008"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesse_filme_bella_a_protagonista_se_muda_para_a_casa_do_pai_e_come_a_a_frequentar_uma_escola_nova_onde_ela_conhece_edward_um_jovem_vampiro_misterioso_ap_s_acabar_de_se_formar_com_18_anos_bella_engravida_de_edward_na_lua_de_mel_pesquisas_apontam_que_gesta_es_como_essa_muitas_vezes_indesejadas_representam_risco_para_o_corpo_que_ainda_est_em_transforma_o_al_m_de_ser_uma_das_principais_causas_de_evas_o_escolar_no_brasil"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="250dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/sex_education_2019"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nessa_s_rie_otis_o_protagonista_um_adolescente_t_mido_que_vive_com_sua_m_e_uma_terapeuta_sexual_junto_com_maeve_sua_amiga_ele_resolve_montar_uma_cl_nica_de_sa_de_sexual_para_ajudar_os_outros_alunos_da_escola_a_terapia_de_otis_pode_ser_relacionada_vis_o_do_qu_o_importante_o_estabelecimento_de_aulas_de_educa_o_sexual_nas_escolas_que_supra_a_necessidade_dos_jovens_nessa_fase_de_transi_o_ademais_maeve_passa_por_um_epis_dio_de_gravidez_indesejada_e_precisa_abortar_de_forma_que_a_s_rie_passa_a_vis_o_da_garota_sem_condi_es_financeiras_ou_psicol_gicas_para_ter_um_filho"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="330dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/elite_2018"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/a_s_rie_acompanha_o_dia_a_dia_de_las_encinas_a_melhor_e_mais_exclusiva_escola_da_espanha_frequentada_somente_por_filhos_de_fam_lias_ricas_e_influentes_entretanto_tudo_come_a_a_mudar_quando_tr_s_alunos_bolsistas_do_ensino_p_blico_s_o_transferidos_para_l_como_consequ_ncia_de_um_terremoto_que_destruiu_sua_antiga_escola_marina_uma_das_personagens_tem_hiv_e_ao_longo_da_s_rie_poss_vel_ver_como_sua_condi_o_com_o_v_rus_molda_a_vis_o_dos_outros_sobre_sua_vida_sexual_e_o_tratamento_de_seus_pais_em_rela_o_a_ela"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="300dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

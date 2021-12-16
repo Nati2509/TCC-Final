@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesEconomia.DadosEconomia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_da2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dados"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/brasil_nono_pa_s_mais_desigual_do_mundo_diz_ibge"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/a_desigualdade_brasileira_continua_a_ocupar_os_primeiros_lugares_no_ranking_mundial_o_ibge_mostrou_nesta_quinta_feira_que_o_pa_s_o_novo_mais_desigual_do_mundo_usando_dados_do_banco_mundial_o_brasil_est_pior_inclusive_que_botsuana_o_mais_desigual_a_frica_do_sul_e_a_b_lgica_o_mais_igualit_rio"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_exame_com_economia_brasil_e_nono_pais_mais_desigual_do_mundo_diz_ibge"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="290dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/entenda_a_economia_do_brasil_seu_contexto_atualidades_e_perspectiva"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/a_economia_do_brasil_apresenta_sinais_de_recupera_o_e_o_pib_deve_crescer_5_3_ainda_em_2021_segundo_relat_rio_do_fmi_as_exporta_es_cresceram_36_respondendo_positivamente_ao_novo_cen_rio_de_retomada_da_economia_mundial"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/http_www_portaldaindustria_com_br_industria_de_a_z_economia"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="250dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="#e6e4ba">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/produto_interno_bruto_pib"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/o_pib_a_soma_de_todos_os_bens_e_servi_os_finais_produzidos_por_um_pa_s_estado_ou_cidade_geralmente_em_um_ano_todos_os_pa_ses_calculam_o_seu_pib_nas_suas_respectivas_moedas_o_pib_do_brasil_em_2020_por_exemplo_foi_de_r_7_4_trilh_es_no_ltimo_trimestre_divulgado_1_trimestre_de_2021_o_valor_foi_de_r_2048_0_bilh_es"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_ibge_gov_br_explica_pib_php"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="260dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/desemprego_no_pa_s_mant_m_recorde_de_14_7_e_atinge_14_8_milh_es_diz_ibge"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/a_taxa_de_desemprego_no_pa_s_foi_de_14_7_no_trimestre_fechado_em_abril_0_4_ponto_percentual_acima_do_trimestre_anterior_encerrado_em_janeiro_14_2_com_isso_o_n_mero_de_desempregados_teve_alta_de_3_4_com_mais_489_mil_pessoas_desocupadas_no_total_s_o_14_8_milh_es_de_pessoas_buscando_trabalho_a_taxa_e_o_n_mero_de_desempregados_s_o_os_maiores_desde_o_in_cio_da_s_rie_hist_rica_iniciada_em_2012"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="340dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_economia_uol_com_br_empregos_e_carreiras_noticias_redacao_2021_06_30_desemprego_pnad_ibge_htm"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="400dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/como_a_pandemia_bagun_ou_a_economia_brasileira_em_2020"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/a_pandemia_de_coronav_rus_derrubou_a_economia_global_em_2020_e_o_brasil_n_o_ficou_imune_ao_abalo_provocado_pelas_restri_es_impostas_atividade_econ_mica_pela_queda_na_renda_das_fam_lias_e_pelos_adiamentos_de_investimentos_e_projetos_empresariais_e_pessoais"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_g1_globo_com_economia_noticia_2020_12_12_como_a_pandemia_baguncou_a_economia_brasileira_em_2020_ghtml"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="290dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView6title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/exporta_o_quais_s_o_os_produtos_mais_exportados_pelo_brasil"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/o_brasil_aparece_no_27_lugar_entre_os_maiores_exportadores_do_mundo_segundo_um_relat_rio_divulgado_pela_organiza_o_mundial_do_com_rcio_omc_em_2018_no_per_odo_o_pa_s_registrou_um_aumento_de_10_nas_vendas_na_compara_o_anual_com_destaque_nas_vendas_de_itens_do_agroneg_cio_o_pa_s_um_importante_parceiro_comercial_no_cen_rio_global_entre_janeiro_e_outubro_de_2020_as_exporta_es_brasileiras_somam_us_174_1_bilh_es_de_acordo_com_dados_do_minist_rio_da_ind_stria_com_rcio_exterior_e_servi_os_mdic"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_santandernegocioseempresas_com_br_conhecimento_internacionalizacao_produtos_mais_exportados_pelo_brasil"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec6"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="430dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView7title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/quais_commodities_o_brasil_mais_exporta"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/o_territ_rio_brasileiro_caracterizado_por_sua_dimens_o_continental_e_abund_ncia_de_recursos_naturais_terras_agricult_veis_min_rios_petr_leo_etc_proporcionando_ao_pa_s_um_potencial_muito_grande_de_produ_o_de_produtos_prim_rios_esse_potencial_refletido_na_grande_import_ncia_dos_produtos_b_sicos_na_pauta_de_exporta_o_do_brasil"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_mercadosagricolas_com_br_inteligencia_pauta_exportadora_brasileira"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec7"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="290dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView8title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/exportar_muito_e_importar_pouco_n_o_gera_crescimento_e_o_caminho_para_a_pobreza"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_que_gera_crescimento_econ_mico_um_aumento_na_produ_o_e_aumentos_na_produ_o_requerem_al_m_de_investimentos_aumentos_na_especializa_o_da_m_o_de_obra_aumentos_na_especializa_o_por_sua_vez_requerem_aumentos_no_com_rcio"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_mises_org_br_article_2827_exportar_muito_e_importar_pouco_nao_gera_crescimento_e_e_o_caminho_para_a_pobreza"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec8"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="310dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView9title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/por_que_o_brasil_importa_combust_veis_se_autossuficiente_em_petr_leo"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/h_mais_de_15_anos_o_brasil_passou_a_ser_considerado_autossuficiente_em_petr_leo_o_que_significa_dizer_que_a_produ_o_do_recurso_supera_o_consumo_por_dia_o_pa_s_fabrica_3_milh_es_de_barris_mas_compra_do_exterior_170_mil_barris_por_dia_em_derivados_do_petr_leo_por_que_ainda_importamos"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_economia_uol_com_br_noticias_redacao_2021_04_17_por_que_o_brasil_importa_combustiveis_se_e_autossuficiente_em_petroleo_htm"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec9"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="300dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView10title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/pobreza_piora_com_pandemia_em_todo_o_pa_s_menos_em_3_estados_diz_pesquisa"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/acre_par_e_tocantins_foram_os_nicos_estados_brasileiros_nos_quais_n_o_houve_piora_da_pobreza_entre_novembro_de_2019_e_janeiro_de_2021_o_que_mostra_estudo_feito_pelo_economista_e_pesquisador_da_funda_o_getulio_vargas_fgv_ibre_daniel_duque"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_economia_uol_com_br_noticias_redacao_2021_08_30_pobreza_avanca_em_todos_os_estados_menos_3_com_a_pandemia_diz_pesquisa_htm"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec10"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="320dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView11title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/decreto_n_59_607"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView11text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/segundo_o_artigo_1_do_decreto_n_59_607_de_28_de_novembro_de_1966_o_conselho_nacional_do_com_rcio_exterior_concex_tem_a_atribui_o_de_formular_a_pol_tica_de_com_rcio_exterior_bem_como_de_determinar_orientar_e_coordenar_a_execu_o_das_medidas_necess_rias_expans_o_das_opera_es_comerciais_com_o_exterior_tendo_em_vista_o_papel_estrat_gico_do_com_rcio_exterior_no_processo_de_desenvolvimento_econ_mico_do_pa_s"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec11"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="260dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView12title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/lei_n_3_244"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView12text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/segundo_o_artigo_1_da_lei_n_3_244_de_14_de_agosto_de_1957_est_sujeita_ao_imposto_de_importa_o_a_mercadoria_estrangeira_que_entrar_em_territ_rio_nacional"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ec12"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="130dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".pagesPolitica.CitacoesPolitica">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_ci6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Citações"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/um_pa_s_n_o_muda_pela_sua_economia_sua_pol_tica_e_nem_mesmo_sua_ci_ncia_muda_sim_pela_sua_cultura_herbert_jos_de_sousa"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_po1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="70dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/n_o_h_nada_de_errado_com_aqueles_que_n_o_gostam_de_pol_tica_simplesmente_ser_o_governados_por_aqueles_que_gostam_plat_o"
+                    android:textColor="#0B0909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="70dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/a_pol_tica_n_o_deveria_ser_a_arte_de_dominar_mas_sim_a_arte_de_fazer_justi_a_arist_teles"
+                    android:textColor="#0E0E0E"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="50dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/o_homem_por_natureza_um_animal_pol_tico_arist_teles"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/o_meu_ideal_pol_tico_a_democracia_para_que_todo_homem_seja_respeitado_e_nenhum_venerado_albert_einstein"
+                    android:textColor="#101010"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/n_o_s_o_os_pol_ticos_os_que_governam_o_mundo_os_lugares_de_poder_al_m_de_serem_supranacionais_multinacionais_s_o_invis_veis_jos_saramago"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po6"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="70dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/a_democracia_n_o_apenas_a_lei_da_maioria_a_lei_da_maioria_respeitando_o_direito_das_minorias_clement_attlee"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po7"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/onde_n_o_h_lei_n_o_h_liberdade_john_locke"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po8"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/f_cil_persuadir_o_povo_de_algo_dif_cil_manter_essa_persuas_o_nicolau_maquiavel"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po9"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="50dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/encontrou_se_em_boa_pol_tica_o_segredo_de_fazer_morrer_de_fome_aqueles_que_cultivando_a_terra_fazem_viver_os_outros_voltaire"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/copy_po10"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="70dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

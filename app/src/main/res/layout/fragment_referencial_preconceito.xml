@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesPreconceito.ReferencialPreconceito">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_re7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Repertórios"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/hoje_eu_quero_voltar_sozinho_2014"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesse_filme_leonardo_um_adolescente_cego_e_que_sofre_preconceito_e_bullying_na_escola_busca_a_sua_independ_ncia_em_meio_ao_superprotecionismo_dos_pais_ademais_com_a_chegada_de_um_novo_aluno_em_sua_escola_o_protagonista_come_a_a_descobrir_mais_sobre_a_sua_sexualidade"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_pr1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="170dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_menino_do_pijama_listrado_2008"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_se_passa_na_alemanha_durante_a_segunda_guerra_mundial_onde_bruno_filho_de_um_oficial_nazista_que_assume_um_cargo_importante_em_um_campo_de_concentra_o_sem_saber_bruna_vira_amigo_de_uma_crian_a_judia_atrav_s_de_conversas_di_rias_mesmo_que_os_dois_estejam_separados_por_uma_grade_de_a_o_durante_o_tempo_inteiro_o_filme_ilustra_as_crueldades_realizadas_pelos_nazistas_no_per_odo_da_segunda_guerra_mundial"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_pr2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="250dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/falc_o_e_o_soldado_invernal_2021"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/ap_s_receber_o_manto_do_capit_o_am_rica_para_assumir_seu_posto_falc_o_manipulado_para_entregar_o_escudo_ao_governo_na_s_rie_sam_leva_sua_irm_ao_banco_na_esperan_a_de_usar_sua_fama_para_conseguir_um_empr_stimo_mas_n_o_o_que_acontece_essa_cena_prova_que_o_racismo_n_o_conhece_status_ou_import_ncia_social_segundo_o_the_guardian_pequenos_neg_cios_de_pessoas_negras_t_m_o_dobro_de_chances_de_terem_seus_empr_stimos_negados"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_pr3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="260dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Sex Education (2019)"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nessa_s_rie_otis_o_protagonista_um_adolescente_t_mido_que_vive_com_sua_m_e_uma_terapeuta_sexual_junto_com_maeve_sua_amiga_ele_resolve_montar_uma_cl_nica_de_sa_de_sexual_para_ajudar_os_outros_alunos_da_escola_eric_o_melhor_amigo_do_protagonista_um_dos_nicos_garotos_gays_da_escola_e_al_m_de_sofrer_agress_es_verbais_diariamente_vive_uma_viol_ncia_f_sica_traum_tica_esse_fato_faz_com_que_ele_mude_sua_atitude_quanto_s_suas_roupas_escondendo_sua_identidade_por_medo_o_que_o_deixa_agressivo_em_resposta_a_situa_o_ademais_tamb_m_poss_vel_analisar_adam_seu_principal_agressor_o_qual_se_descobre_atra_do_por_eric_enquanto_o_agride_esse_fato_representa_a_homofobia_enraizada_na_homossexualidade_reprimida_que_originada_da_inveja_de_liberdade_do_outros"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_pr4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="420dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/parasita_2019"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_retrata_a_hist_ria_da_fam_lia_ki_taek_inteiramente_desempregada_e_que_vive_em_um_por_o_sujo_e_apertado_at_que_o_filho_adolescente_come_a_a_dar_aulas_de_ingl_s_a_uma_garota_de_fam_lia_rica_com_o_passar_do_tempo_toda_a_fam_lia_ki_taek_se_infiltra_na_fam_lia_burguesa_park_em_diferentes_cargos_o_elemento_que_representa_o_preconceito_da_fam_lia_rica_o_cheiro_caracter_stico_que_de_acordo_com_eles_seria_de_quem_anda_de_metr_pois_uma_vez_pego_nunca_sai_o_que_demonstra_o_preconceito_e_a_diminui_o_contra_classes_menos_privilegiadas"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_pr5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="300dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216575851986",
+    "project_id": "referencial-tcc",
+    "storage_bucket": "referencial-tcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216575851986:android:de690c5af38f26d4f4dc0b",
+        "android_client_info": {
+          "package_name": "com.example.referencial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216575851986-i370ph64ig3fj0818oie5dnf6tig7hf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfVV3mVRzEDL-7-7dnV2bssXqNDHy9F9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216575851986-i370ph64ig3fj0818oie5dnf6tig7hf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

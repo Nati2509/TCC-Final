@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesJuventude.DadosJuventude">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_da4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dados"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/no_brasil_cerca_de_11_milh_es_de_jovens_n_o_estudam_e_nem_trabalham"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/no_brasil_quase_11_milh_es_de_jovens_de_15_a_29_anos_n_o_est_o_ocupados_no_mercado_de_trabalho_e_nem_estudando_ou_se_qualificando_de_acordo_com_a_pnad_cont_nua_suplemento_educa_o_realizada_pelo_ibge_em_2018_esse_grupo_que_representa_23_da_popula_o_do_pa_s_nessa_faixa_et_ria_ficou_conhecido_como_nem_nem_um_termo_que_se_tornou_controverso_e_por_isso_seu_uso_vem_sendo_evitado"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_agenciadenoticias_ibge_gov_br_agencia_noticias_2012_agencia_de_noticias_noticias_25801_nem_nem"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="360dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/popula_o_jovem_no_brasil_cai_ao_menor_n_mero_em_quase_duas_d_cadas"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/a_popula_o_brasileira_com_idade_entre_15_e_29_anos_ser_inferior_a_50_milh_es_de_pessoas_at_o_fim_deste_ano_quando_ficar_abaixo_desse_patamar_pela_primeira_vez_desde_2002_a_estimativa_que_o_indicador_se_reduza_ainda_mais_nas_pr_ximas_d_cadas_e_esse_contingente_diminua_em_mais_de_um_quarto_em_at_40_anos_al_m_disso_nos_ltimos_anos_os_indicadores_que_tratam_de_ndices_como_satisfa_o_com_a_vida_preocupa_es_e_qualidade_do_ensino_apresentaram_piora_entre_os_jovens_brasileiros"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_www_terra_com_br_noticias_brasil_cidades_populacao_jovem_no_brasil_cai_ao_menor_numero_em_quase_duas_decadas_1be9691fe60013b8dc16bf47ba731a46yqzo3e3l_html"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="440dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="#e6e4ba">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/desemprego_entre_os_jovens_aponta_mercado_de_trabalho_desafiador"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/os_jovens_formam_um_dos_grupos_mais_afetados_pelo_desemprego_no_brasil_dos_quase_14_milh_es_de_desempregados_no_quarto_trimestre_de_2020_cerca_de_70_eram_pessoas_na_faixa_et_ria_entre_14_e_24_anos_de_idade_segundo_dados_da_pesquisa_nacional_por_amostra_de_domic_lios_cont_nua_pnad_realizada_pelo_instituto_brasileiro_de_geografia_e_estat_stica_ibge_com_a_inser_o_das_novas_tecnologias_esse_grupo_encontra_um_mercado_de_trabalho_cada_vez_mais_exigente_e_consequentemente_com_mais_dificuldades_para_garantir_novas_oportunidades"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_jornal_usp_br_atualidades_desemprego_entre_os_jovens_aponta_mercado_de_trabalho_desafiador"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="430dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/uma_a_cada_4_crian_as_e_adolescentes_teve_sinais_de_ansiedade_e_depress_o_na_pandemia_aponta_estudo"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/uma_em_cada_quatro_crian_as_e_adolescentes_ouvidos_em_estudo_da_faculdade_de_medicina_da_universidade_de_s_o_paulo_usp_apresentou_ansiedade_e_depress_o_durante_a_pandemia_com_n_veis_cl_nicos_ou_seja_com_necessidade_de_interven_o_de_especialistas_os_dados_foram_apresentados_comiss_o_externa_de_enfrentamento_covid_19_da_c_mara_dos_deputados_pelo_coordenador_da_pesquisa_o_psiquiatra_de_crian_as_e_adolescentes_guilherme_polanczyk"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_camara_leg_br_noticias_774133_uma_a_cada_4_criancas_e_adolescentes_teve_sinais_de_ansiedade_e_depressao_na_pandemia_aponta_estudo"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="430dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/quais_s_o_os_principais_perigos_sa_de_mental_dos_jovens_na_atualidade"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/a_adolesc_ncia_um_momento_nico_complexo_e_formativo_o_per_odo_que_compreende_essa_fase_da_vida_inicia_aos_10_anos_e_vai_at_os_19_diferentes_mudan_as_no_aspecto_f_sico_emocional_e_social_influenciam_o_comportamento_e_podem_afetar_a_sa_de_mental_poss_vel_que_essas_altera_es_comportamentais_gerem_dilemas_que_exigem_aten_o_profissional_especializada_para_reduzir_os_impactos_resultantes_dos_problemas_t_picos_dessa_etapa_da_vida"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_hospitalsantamonica_com_br_quais_sao_os_principais_perigos_a_saude_mental_dos_jovens_na_atualidade"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="410dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView6title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/_89_das_crian_as_e_dos_adolescentes_brasileiros_s_o_usu_rios_de_internet"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/no_brasil_89_das_crian_as_e_dos_adolescentes_s_o_usu_rios_de_internet_no_entanto_4_8_milh_es_das_pessoas_de_9_a_17_anos_ainda_moram_em_domic_lios_sem_acesso_rede_o_que_representa_18_dessa_popula_o_os_dados_s_o_da_pesquisa_tic_kids_online_brasil_2019_divulgada_pelo_comit_gestor_da_internet_no_brasil_cgi_br_por_meio_do_centro_regional_de_estudos_para_o_desenvolvimento_da_sociedade_da_informa_o_cetic_br_do_n_cleo_de_informa_o_e_coordena_o_do_ponto_br_nic_br_o_estudo_tamb_m_apontou_que_1_4_milh_o_de_crian_as_e_adolescentes_nunca_acessaram_a_internet"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="390dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_teletime_com_br_23_06_2020_89_das_criancas_e_dos_adolescentes_brasileiros_sao_usuarios_de_internet"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju6"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="440dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView7title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_engajamento_pol_tico_dos_jovens_pode_mudar_o_brasil"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/o_engajamento_pol_tico_da_sociedade_em_geral_e_dos_jovens_em_particular_tem_sido_tema_de_discuss_es_n_o_s_em_ambientes_universit_rios_como_tamb_m_nas_conservas_de_rua_not_vel_como_a_participa_o_da_juventude_se_tornou_mais_atuante_na_pol_tica_nacional_com_o_uso_massivo_da_internet_seja_pelas_redes_sociais_ou_por_aplicativos_de_mensagens_instant_neas"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_unibh_br_blog_o_engajamento_politico_do_jovem_pode_mudar_o_brasil_realmente"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju7"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="310dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView8title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/estat_sticas_de_filiados_a_partidos_revela_baixa_participa_o_feminina_e_de_jovens_na_pol_tica"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_tribunal_superior_eleitoral_tse_divulgou_as_estat_sticas_de_filiadas_e_filiados_a_partidos_pol_ticos_do_pa_s_ap_s_a_atualiza_o_das_rela_es_no_sistema_filia_ocorrida_em_abril_de_2021_os_n_meros_mostram_que_embora_sejam_mais_da_metade_do_eleitorado_as_mulheres_constituem_cerca_de_45_dos_registrados_em_partidos_pol_ticos_al_m_disso_menos_de_2_dos_eleitores_jovens_at_os_24_anos_se_interessaram_em_se_unir_a_alguma_agremia_o_partid_ria_brasileira"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_tse_jus_br_imprensa_noticias_tse_2021_junho_estatisticas_de_filiados_a_partidos_revela_baixa_participacao_feminina_e_de_jovens_na_politica"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju8"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="430dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView9title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/metade_dos_jovens_quer_sair_do_brasil_veja_os_motivos"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/de_acordo_com_pesquisas_realizadas_nos_ltimos_meses_com_dados_publicados_recentemente_no_atlas_das_juventudes_47_dos_50_milh_es_de_jovens_entre_15_e_29_estariam_dispostos_a_sair_do_pa_s"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_www_eurodicas_com_br_metade_dos_jovens_quer_sair_do_brasil"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju9"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="230dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView10title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/adolescentes_do_brasil_usam_as_redes_sociais_em_m_dia_63_vezes_por_dia"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/a_viacom_international_media_networks_divis_o_da_viacom_inc_divulgou_em_2019_os_resultados_de_seu_mais_novo_estudo_chamado_my_teen_life_uma_hist_ria_global_a_pesquisa_foi_realizada_com_cerca_de_5200_adolescentes_com_idades_entre_12_e_17_anos_em_30_pa_ses_como_brasil_alemanha_argentina_canad_china_col_mbia_it_lia_jap_o_entre_outros_de_acordo_com_dados_obtidos_por_meio_do_estudo_os_adolescentes_brasileiros_usam_as_redes_sociais_em_m_dia_63_vezes_por_dia_e_64_deles_se_sentem_pressionados_a_responder_as_mensagens_que_recebem_em_at_no_m_ximo_30_minutos"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_telaviva_com_br_04_02_2019_adolescentes_do_brasil_usam_as_redes_sociais_em_media_63_vezes_por_dia"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju10"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="430dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView11title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/lei_n_5_692"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView11text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/segundo_o_artigo_20_da_lei_n_5_692_de_11_de_agosto_de_1971_o_ensino_de_1_grau_ser_obrigat_rio_dos_7_aos_14_anos_cabendo_aos_munic_pios_promover_anualmente_o_levantamento_da_popula_o_que_alcance_a_idade_escolar_e_proceder_sua_chamada_para_matr_cula"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju11"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="180dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView12title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Lei nº 5.692"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView12text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/segundo_o_artigo_21_da_lei_n_5_692_de_11_de_agosto_de_1971_ensino_de_2_grau_destina_se_forma_o_integral_do_adolescente"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_ju12"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="120dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

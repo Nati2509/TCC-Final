@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".pagesMeioAmbiente.DadosMeioAmbiente">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="217dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/text_da5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dados"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView1title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/ibge_desastres_naturais_atingiram_40_9_dos_munic_pios_do_pa_s_nos_ltimos_anos"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView1text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/um_levantamento_do_instituto_brasileiro_de_geografia_e_estat_stica_ibge_constatou_que_40_9_dos_munic_pios_brasileiros_sofreram_nos_ltimos_cinco_anos_pelo_menos_um_desastre_natural_foram_2_276_cidades_atingidas_por_inunda_es_graduais_enxurradas_bruscas_e_ou_deslizamentos_de_encostas_entre_2008_a_2013"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView1link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:textColorLink="#101010"
+                android:text="@string/http_www_ufrgs_br_grid_noticias_ibge_desastres_naturais_atingiram_40_9_dos_municipios_do_pais_nos_ultimos_anos"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma1"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="320dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView2title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/ocha_brasil_entre_pa_ses_com_maior_n_mero_de_pessoas_expostas_a_inunda_es_br"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/o_brasil_aparece_entre_os_15_pa_ses_do_globo_com_a_maior_popula_o_exposta_ao_risco_de_inunda_o_de_rios_a_informa_o_de_um_relat_rio_da_onu_documentando_cat_strofes_naturais_das_ltimas_duas_d_cadas_na_am_rica_latina_e_caribe"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:textColorLink="#101010"
+                android:text="@string/https_news_un_org_pt_story_2020_01_1699571"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma2"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="250dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="#e6e4ba">
+
+            <TextView
+                android:id="@+id/textView3title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/desastres_naturais_59_4_dos_munic_pios_n_o_t_m_plano_de_gest_o_de_riscos"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView3text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/dos_5_570_munic_pios_brasileiros_mais_da_metade_59_4_n_o_contavam_com_instrumentos_de_planejamento_e_gerenciamento_de_riscos_em_2017_apenas_25_tinham_plano_diretor_contemplando_preven_o_de_enchentes_e_enxurradas_e_23_declararam_ter_lei_de_uso_e_ocupa_o_do_solo_prevendo_essas_situa_es"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView3link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_agenciadenoticias_ibge_gov_br_agencia_noticias_2012_agencia_de_noticias_noticias_21633_desastres_naturais_59_4_dos_municipios_nao_tem_plano_de_gestao_de_riscos"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma3"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="350dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView4title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/brasil_encerra_2020_com_maior_n_mero_de_focos_de_queimadas_em_uma_d_cada"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView4text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/pantanal_registrou_a_maior_quantidade_de_focos_de_inc_ndio_desde_o_in_cio_da_s_rie_hist_rica_em_1998_focos_de_queimada_na_amaz_nia_subiram_15_em_rela_o_a_2019"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView4link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_www_dw_com_pt_br_brasil_encerra_2020_com_maior_n_c3_bamero_de_focos_de_queimadas_em_uma_d_c3_a9cada_a_56119157"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma4"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="250dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView5title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/veneno_nossa_mesa_o_brasil_o_pa_s_que_mais_consome_agrot_xicos"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView5text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/a_ind_stria_do_agro_min_rio_neg_cio_al_m_do_aumento_do_seu_produto_interno_bruto_pib_em_cerca_de_2_42_de_janeiro_a_fevereiro_crescente_nas_aprova_es_de_registros_de_agrot_xicos_para_fabrica_o_e_uso_em_nosso_pa_s"
+                android:textColor="#101010"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView5link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_www_ecodebate_com_br_2020_11_16_veneno_a_nossa_mesa_o_brasil_e_o_pais_que_mais_consome_agrotoxicos"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma5"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="270dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView6title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/aquecimento_global_atinge_n_veis_sem_precedentes_e_dispara_alerta_vermelho_para_a_humanidade"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView6text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/o_novo_relat_rio_do_painel_intergovernamental_sobre_mudan_a_do_clima_ipcc_fala_sobre_tend_ncias_irrevers_veis_no_que_diz_respeito_mudan_a_clim_tica_global_pela_primeira_vez_o_ipcc_quantificou_o_grau_de_influ_ncia_das_mudan_as_clim_ticas_frequ_ncia_e_intensidade_de_eventos_extremos_como_secas_prolongadas_ondas_de_calor_tempestades_e_furac_es"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView6link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_brasil_un_org_pt_br_139401_aquecimento_global_atinge_niveis_sem_precedentes_e_dispara_alerta_vermelho_para_humanidade"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma6"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="380dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView7title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/ibge_brasil_tinha_3_299_esp_cies_em_risco_de_extin_o_em_2014"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView7text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/o_brasil_tem_3_299_esp_cies_de_animais_e_plantas_amea_adas_o_que_representa_19_8_do_total_de_16_645_esp_cies_avaliadas_o_que_aponta_a_pesquisa_contas_de_ecossistemas_esp_cies_amea_adas_de_extin_o_no_brasil_2014_divulgada_pelo_instituto_brasileiro_de_geografia_e_estat_stica_ibge"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView7link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_agenciabrasil_ebc_com_br_geral_noticia_2020_11_ibge_brasil_tinha_3299_especies_em_risco_de_extincao_em_2014"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma7"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="310dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView8title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/veganismo_a_forma_mais_efetiva_de_salvar_o_planeta_afirmam_lideran_as_cient_ficas"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView8text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/a_comiss_o_eat_lancet_de_food_planet_health_reuniu_mais_de_30_cientistas_l_deres_de_todo_o_mundo_para_chegar_a_um_consenso_cient_fico_sobre_o_que_uma_alimenta_o_saud_vel_e_sustent_vel_o_estudo_publicado_na_revista_the_lancet_concluiu_que_a_produ_o_e_o_consumo_de_alimentos_devem_mudar_drasticamente_para_evitar_milh_es_de_mortes_e_danos_catastr_ficos_para_o_planeta"
+                android:textColor="#101010"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView8link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_www_ecycle_com_br_alimentacao_vegana_e_a_forma_mais_efetiva_de_proteger_o_meio_ambiente"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma8"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="360dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView9title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/como_est_o_buraco_na_camada_de_oz_nio_em_2020"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView9text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/o_buraco_de_oz_nio_na_ant_rtica_atingiu_seu_tamanho_m_ximo_anual_em_cerca_de_24_8_milh_es_de_quil_metros_quadrados_cerca_de_tr_s_vezes_a_rea_continental_dos_estados_unidos_em_20_de_setembro_as_observa_es_revelaram_a_elimina_o_quase_completa_do_oz_nio_numa_coluna_de_1_6_km_de_altura_na_estratosfera_sobre_o_polo_sul"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView9link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:textColorLink="#101010"
+                android:text="@string/https_eco21_eco_br_onde_esta_o_buraco_na_camada_de_ozonio_em_2020"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma9"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="290dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView10title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/os_novos_dados_que_apontam_crise_clim_tica_ainda_mais_preocupante_para_o_brasil"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView10text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/o_ano_de_2020_foi_o_mais_quente_j_registrado_na_europa_superando_a_marca_anterior_por_uma_grande_margem_essa_uma_das_conclus_es_do_relat_rio_estado_do_clima_2020_rec_m_publicado_pela_sociedade_meteorol_gica_americana_que_tamb_m_traz_alertas_importantes_sobre_o_clima_no_brasil_e_no_rtico"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView10link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:autoLink="web"
+                android:textSize="15sp"
+                android:linksClickable="true"
+                android:text="@string/https_www_bbc_com_portuguese_geral_58337819"
+                android:textColorLink="#101010"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma10"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="290dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView11title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/lei_n_6_938"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView11text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/segundo_o_artigo_2_da_lei_n_6_938_de_31_de_agosto_de_198_a_pol_tica_nacional_do_meio_ambiente_tem_por_objetivo_a_preserva_o_melhoria_e_recupera_o_da_qualidade_ambiental_prop_cia_vida_visando_assegurar_no_pa_s_condi_es_ao_desenvolvimento_socioecon_mico_aos_interesses_da_seguran_a_nacional_e_prote_o_da_dignidade_da_vida_humana"
+                android:textColor="#101010"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma11"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="230dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="#e6e4ba"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView12title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/lei_n_8_171"
+                android:textColor="#101010"
+                android:textSize="17sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView12text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/text10"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#101010"
+                android:text="@string/a_lei_n_8_171_de_17_de_janeiro_de_1991_objetiva_a_prote_o_do_meio_ambiente_e_estabelece_a_obriga_o_de_recuperar_os_recursos_naturais_para_empresas_que_exploram_economicamente_guas_represadas_e_para_as_concession_rias_de_energia_el_trica_ademais_define_que_o_poder_p_blico_deve_disciplinar_e_fiscalizar_o_uso_racional_do_solo_da_gua_da_fauna_e_da_flora_realizar_zoneamentos_agroecol_gicos_para_ordenar_a_ocupa_o_de_diversas_atividades_produtivas_desenvolver_programas_de_educa_o_ambiental_fomentar_a_produ_o_de_mudas_de_esp_cies_nativas_entre_outros"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/copy_ma12"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="340dp"
+                app:backgroundTint="#e6e4ba"
+                app:icon="?attr/actionModeCopyDrawable"
+                app:iconTint="#101010"
+                tools:ignore="OnClick" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    </ScrollView>
+
+    </FrameLayout>

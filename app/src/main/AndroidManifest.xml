@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.referencial"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.Referencial"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher">
+
+        <activity android:name=".ActivityCultura"/>
+        <activity android:name=".ActivityEconomia"/>
+        <activity android:name=".ActivityEducacao"/>
+        <activity android:name=".ActivityJuventude"/>
+        <activity android:name=".ActivityMeioAmbiente"/>
+        <activity android:name=".ActivityPolitica"/>
+        <activity android:name=".ActivityPreconceito"/>
+        <activity android:name=".ActivitySaude"/>
+        <activity android:name=".ActivitySociedade"/>
+        <activity android:name=".ActivityTecnologia"/>
+        <activity android:name=".ActivityViolencia"/>
+        <activity android:name=".ActivitySobre"/>
+        <activity android:name=".NotasActivity"/>
+        <activity android:name=".UploadActivity"/>
+        <activity android:name=".MainActivity">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+
+        </activity>
+
+</application>
+
+</manifest>

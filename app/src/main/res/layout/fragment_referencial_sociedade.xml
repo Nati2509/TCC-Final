@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesSociedade.ReferencialSociedade">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_re9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Repertórios"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/bacurau_2019"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_retrata_a_hist_ria_de_uma_cidade_no_sert_o_brasileiro_bacurau_em_que_ap_s_a_morte_de_dona_carmelinda_os_moradores_descobrem_que_a_comunidade_n_o_consta_no_mapa_aos_poucos_eles_percebem_algo_estranho_na_regi_o_pois_pela_primeira_vez_drones_passeiam_nos_c_us_e_estrangeiros_chegam_cidade_no_filme_poss_vel_identificar_temas_como_viol_ncia_porte_de_armas_mis_ria_crise_da_gua_e_meio_ambiente_al_m_disso_aborda_sobre_pol_ticos_milicianos_a_for_a_do_capital_estrangeiro_e_do_neocolonialismo"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="290dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/a_hora_da_estrela_1985"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_conta_a_hist_ria_de_macab_a_uma_imigrante_nordestina_que_vive_em_s_o_paulo_ela_trabalha_como_datil_grafa_em_uma_pequena_empresa_e_vive_em_uma_pens_o_simples_onde_divide_o_quarto_com_outras_tr_s_mulheres_a_protagonista_se_posiciona_como_algu_m_inferior_condi_o_que_empurrada_pela_sociedade_e_a_si_mesma_imposta_por_sua_pr_pria_personalidade_pois_ela_se_compara_com_algo_qualquer_ademais_o_filme_trata_de_temas_como_solid_o_desigualdade_social_migra_o_preconceito_pobreza_relacionamento_abusivo_e_machismo"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="310dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/que_horas_ela_volta_2015"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesse_filme_a_protagonista_val_se_muda_para_s_o_paulo_para_ser_bab_morando_integralmente_na_casa_de_seus_patr_es_com_o_objetivo_de_dar_melhores_condi_es_de_vida_para_sua_filha_j_ssica_a_filha_que_havia_ficado_em_pernambuco_pede_ajuda_m_e_para_ir_a_s_o_paulo_prestar_vestibular_treze_anos_depois_de_val_partir_ao_chegar_na_casa_em_que_sua_m_e_trabalha_val_n_o_aceita_a_divis_o_de_classes_e_o_lugar_de_empregada_impostos_a_ela_e_a_sua_m_e_gerando_conflitos_com_os_patr_es_al_m_disso_o_filme_trata_de_temas_como_desigualdade_social_preconceito_segrega_o_explora_o_do_trabalho_rela_es_sociais_preconceito_lingu_stico_conflito_de_classes_sociais_e_acesso_educa_o"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="390dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/expresso_do_amanh_2020"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesta_s_rie_ap_s_a_humanidade_ignorar_o_problema_do_aquecimento_global_at_seu_ponto_cr_tico_um_grupo_de_cientistas_cria_um_experimento_capaz_de_p_r_fim_a_essa_amea_a_mas_o_plano_sai_do_controle_e_eles_acabam_eliminando_quase_toda_a_vida_da_terra_que_se_transforma_em_um_deserto_de_gelo_e_os_sobreviventes_vagam_pelo_planeta_a_bordo_de_um_trem_a_passagem_para_esse_trem_car_ssima_e_apenas_os_mais_ricos_s_o_salvos_aqueles_respons_veis_pela_pr_pria_cat_strofe_ademais_o_trem_possui_sua_pr_pria_estratifica_o_social_composta_por_4_classes_onde_a_primeira_classe_est_o_os_s_o_passageiros_com_ticket_de_ouro_na_segunda_os_trabalhadores_intelectuais_como_m_dicos_e_professores_e_na_terceira_os_oper_rios_al_m_do_chamado_fundo_onde_est_o_os_que_conseguiram_invadir_o_trem_pouco_antes_dele_partir_al_m_disso_a_s_rie_revela_o_descaso_com_a_desigualdade_pois_enquanto_a_primeira_classe_aproveita_as_regalias_e_o_luxo_o_fundo_batalha_para_sobreviver_se_alimentando_de_barras_nutritivas_de_modo_que_como_no_mundo_real_a_mis_ria_de_muitos_vista_como_um_mal_necess_rio_para_a_manuten_o_da_condi_o_confort_vel_de_poucos"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="590dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/maze_runner_2014"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/o_filme_aborda_a_hist_ria_de_um_mundo_p_s_apocal_ptico_onde_o_protagonista_thomas_deixado_em_uma_comunidade_isolada_formada_apenas_por_garotos_ap_s_sua_mem_ria_ter_sido_apagada_logo_ele_se_v_preso_em_um_labirinto_onde_ser_preciso_unir_for_as_com_os_outros_jovens_para_escapar_sozinhos_os_garotos_s_o_apresentados_a_um_estado_de_anomia_ou_seja_a_aus_ncia_de_normas_sociais_segundo_mile_durkheim_assim_como_o_soci_logo_propunha_a_divis_o_do_trabalho_como_uma_solu_o_eles_estabelecem_uma_sociedade_funcional_com_um_sistema_de_leis_hierarquia_social_e_divis_o_de_tarefas_di_rias"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="340dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView6title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/jogos_vorazes_2012"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nesse_filme_em_uma_realidade_dist_pica_a_popula_o_de_panem_controlada_por_um_regime_totalit_rio_que_relembra_esse_dom_nio_realizando_os_chamados_jogos_vorazes_entre_os_distritos_sob_sua_tutela_para_salvar_a_irm_que_foi_sorteada_para_o_torneio_katniss_se_oferece_como_volunt_ria_para_representar_seu_distrito_os_distritos_de_panem_s_o_constru_dos_base_da_desigualdade_social_na_qual_os_12_distritos_s_o_vistos_como_meras_propriedades_do_estado_servindo_para_abastecer_a_capital_sede_do_luxo_e_da_riqueza_no_brasil_por_exemplo_os_cinco_homens_mais_ricos_det_m_o_mesmo_que_50_da_popula_o_mais_pobre_segundo_um_estudo_da_oxfam"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so6"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="360dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView7title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/_13_reasons_why_2017"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/nessa_s_rie_o_protagonista_clay_recebe_uma_caixa_de_sapato_de_hannah_sua_amiga_da_escola_surpreso_ele_encontra_na_caixa_v_rias_fitas_cassetes_onde_a_jovem_listou_os_13_motivos_os_quais_a_levaram_a_cometer_suic_dio_al_m_de_instru_es_para_elas_serem_repassadas_pelos_demais_envolvidos_na_segunda_temporada_h_o_desenrolar_dos_pais_de_hannah_contra_bryce_walker_seu_agressor_em_que_o_agressor_ganha_e_sai_impune_mesmo_depois_de_ter_estuprado_v_rias_garotas_bryce_privilegiado_vem_de_uma_fam_lia_rica_e_poderosa_homem_branco_e_h_tero_e_por_esse_motivo_acaba_sendo_f_cil_se_livrar_dessas_situa_es_o_que_infelizmente_a_realidade_em_muitos_casos"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_so7"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="360dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

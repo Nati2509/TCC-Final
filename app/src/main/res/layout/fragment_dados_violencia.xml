@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesViolencia.DadosViolencia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="217dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_da11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dados"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView1title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/brasil_tem_4_casos_de_lgbtfobia_por_dia_dado_subnotificado_diz_advogada"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/embora_a_lgbtfobia_seja_crime_h_mais_de_dois_anos_no_brasil_a_viol_ncia_contra_pessoas_lgbtqia_continua_crescendo_dados_do_anu_rio_do_f_rum_de_brasileiro_de_seguran_a_p_blica_divulgado_hoje_mostram_crescimento_superior_a_20_no_n_mero_de_ocorr_ncias"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView1link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_www_uol_com_br_universa_noticias_redacao_2021_07_15_lgbtfobia_cresce_20_no_brasil_numero_ainda_e_subnotificado_diz_advogada_htm"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi1"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="300dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView2title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/pesquisa_diz_que_pessoa_com_defici_ncia_sofre_preconceito_no_trabalho"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/uma_pesquisa_encomendada_pelo_minist_rio_p_blico_do_trabalho_em_s_o_paulo_e_realizada_pelo_ibope_revelou_que_a_pessoa_com_defici_ncia_que_vive_na_capital_paulista_ou_na_regi_o_metropolitana_ainda_sofre_preconceito_no_trabalho_de_acordo_com_a_pesquisa_69_dos_entrevistados_informaram_que_j_vivenciaram_ou_presenciaram_algum_tipo_de_discrimina_o_bullying_rejei_o_ass_dio_moral_e_sexual_isolamento_ou_at_viol_ncia_f_sica_no_ambiente_de_trabalho_a_maior_parte_dos_casos_se_refere_a_epis_dios_envolvendo_discrimina_o_bullying_e_rejei_o_apontada_por_mais_de_38_em_cada_um_desses_casos"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView2link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="410dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_agenciabrasil_ebc_com_br_geral_noticia_2020_03_pesquisa_diz_que_pessoa_com_deficiencia_sofre_preconceito_no_trabalho"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi2"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="480dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="#e6e4ba">
+
+                <TextView
+                    android:id="@+id/textView3title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/brasil_registrou_14_mil_den_ncias_de_abuso_sexual_infantil_em_2020"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/mais_de_95_mil_den_ncias_de_viol_ncia_contra_crian_as_e_adolescentes_foram_registradas_em_2020_desse_total_mais_de_14_mil_corresponderam_a_abuso_sexual_estupro_e_explora_o_sexual_os_registros_ainda_incluem_viol_ncia_f_sica_e_psicol_gica_os_n_meros_foram_atualizados_em_abril_deste_ano_e_fazem_parte_dos_dados_do_disque_100_um_servi_o_gratuito_para_den_ncias_de_viola_es_de_direitos_humanos"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView3link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_brasil61_com_n_brasil_teve_14_mil_denuncias_de_abuso_sexual_infantil_em_2020_bras214905"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi3"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="340dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView4title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/aumentam_casos_de_viol_ncia_contra_pessoas_idosas_no_brasil"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/as_den_ncias_de_viol_ncia_contra_pessoas_idosas_representavam_em_2019_30_do_total_de_den_ncias_de_viola_es_de_direitos_humanos_recebidas_pelo_canal_telef_nico_disque_100_disponibilizado_pelo_governo_federal_o_que_somava_em_torno_de_48_5_mil_registros_em_2018_o_servi_o_recebeu_37_4_mil_den_ncias_de_crimes_contra_idosos"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView4link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_agenciabrasil_ebc_com_br_direitos_humanos_noticia_2021_06_aumentam_casos_de_violencia_contra_pessoas_idosas_no_brasil"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi4"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="320dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView5title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/uma_em_cada_quatro_mulheres_foi_v_tima_de_algum_tipo_de_viol_ncia_na_pandemia_no_brasil_aponta_pesquisa"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/levantamento_do_datafolha_encomendado_pelo_f_rum_brasileiro_de_seguran_a_p_blica_indicou_que_caiu_viol_ncia_na_rua_e_aumentaram_agress_es_dentro_de_casa_o_vizinho_que_em_2019_ficou_em_2_lugar_como_autor_das_agress_es_21_neste_ano_sumiu_das_respostas_em_seu_lugar_apareceram_pai_m_e_irm_o_irm_e_outras_pessoas_do_conv_vio_familiar"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView5link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_g1_globo_com_sp_sao_paulo_noticia_2021_06_07_1_em_cada_4_mulheres_foi_vitima_de_algum_tipo_de_violencia_na_pandemia_no_brasil_diz_datafolha_ghtm"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi5"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="370dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView6title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/disque_100_tem_mais_de_6_mil_den_ncias_de_viol_ncia_sexual_contra_crian_as_e_adolescentes_em_2021"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/o_disque_100_registrou_mais_de_6_mil_den_ncias_de_viol_ncia_sexual_contra_crian_as_e_adolescentes_em_2021_os_dados_foram_apresentados_pelo_minist_rio_da_mulher_da_fam_lia_e_dos_direitos_humanos_mmfdh_as_informa_es_s_o_referentes_ao_per_odo_de_1_de_janeiro_a_12_de_maio_deste_ano_as_den_ncias_relacionadas_viol_ncia_sexual_est_o_presentes_em_17_5_das_cerca_de_35_mil_den_ncias_de_viol_ncia_contra_crian_as_e_adolescentes_no_per_odo"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView6link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_gov_br_mdh_pt_br_assuntos_noticias_2021_maio_disque_100_tem_mais_de_6_mil_denuncias_de_violencia_sexual_contra_criancas_e_adolescentes_em_2021"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi6"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="410dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView7title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/assassinatos_de_negros_aumentam_11_5_em_dez_anos_e_de_n_o_negros_caem_12_9_no_mesmo_per_odo_diz_atlas_da_viol_ncia"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/em_2018_os_negros_representaram_75_7_das_v_timas_de_homic_dios_segundo_o_estudo_a_discrep_ncia_entre_as_taxas_de_homic_dio_dos_dois_grupos_significa_que_para_cada_indiv_duo_n_o_negro_morto_em_2018_2_7_negros_foram_mortos_em_alagoas_para_cada_n_o_negro_v_tima_de_homic_dio_morreram_17_negros"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView7link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_g1_globo_com_sp_sao_paulo_noticia_2020_08_27_assassinatos_de_negros_aumentam_115percent_em_dez_anos_e_de_nao_negros_caem_129percent_no_mesmo_periodo_diz_atlas_da_violencia_ghtml"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi7"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="380dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView8title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/viol_ncia_contra_migrantes_e_refugiadas"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/em_geral_mulheres_migrantes_s_o_submetidas_a_diversas_amea_as_e_abusos_ao_longo_de_seu_caminho_segundo_a_onu_mulheres_2017_1_a_cada_5_refugiadas_sofreu_algum_tipo_de_viol_ncia_sexual_n_mero_ainda_subnotificado_o_risco_maior_se_est_o_desacompanhadas_gr_vidas_ou_s_o_idosas_algumas_foram_repetidamente_deslocadas_exploradas_ou_abusadas_em_busca_de_seguran_a"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView8link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_www_sbmfc_org_br_noticias_violencia_contra_migrantes_e_refugiadas"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi8"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="340dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView9title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/um_lgbt_agredido_no_brasil_a_cada_hora_revelam_dados_do_sus"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/uma_pesquisa_in_dita_feita_baseado_nos_dados_do_sistema_nico_de_sa_de_sus_mostrou_que_a_cada_uma_hora_um_lgbt_agredido_no_brasil_entre_2015_e_2017_data_em_que_os_dados_foram_analisados_24_564_notifica_es_de_viol_ncias_contra_essa_popula_o_foram_registradas_o_que_resulta_em_uma_m_dia_de_mais_de_22_notifica_es_por_dia_ou_seja_quase_uma_notifica_o_a_cada_hora"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView9link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:textColorLink="#101010"
+                    android:text="@string/https_www_cartacapital_com_br_diversidade_um_lgbt_e_agredido_no_brasil_a_cada_hora_revelam_dados_do_sus"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi9"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="350dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView10title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/n_de_pessoas_mortas_pela_pol_cia_cresce_no_brasil_no_1_semestre_em_plena_pandemia_assassinatos_de_policiais_tamb_m_sobem"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/ao_menos_3_148_pessoas_foram_mortas_por_policiais_no_primeiro_semestre_deste_ano_em_todo_o_pa_s_o_n_mero_7_mais_alto_que_o_registrado_no_mesmo_per_odo_do_ano_passado_quando_foram_contabilizadas_2_934_mortes"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView10link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:autoLink="web"
+                    android:textSize="15sp"
+                    android:linksClickable="true"
+                    android:text="@string/https_g1_globo_com_monitor_da_violencia_noticia_2020_09_03_no_de_pessoas_mortas_pela_policia_cresce_no_brasil_no_1o_semestre_em_plena_pandemia_assassinatos_de_policiais_tambem_sobem_html"
+                    android:textColorLink="#101010"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi10"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="350dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView11title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/lei_n_11_340"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView11text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/segundo_o_artigo_2_da_lei_n_11_340_de_7_de_agosto_de_2006_mais_conhecida_como_lei_maria_da_penha_toda_mulher_independentemente_de_classe_ra_a_etnia_orienta_o_sexual_renda_cultura_n_vel_educacional_idade_e_religi_o_goza_dos_direitos_fundamentais_inerentes_pessoa_humana_sendo_lhe_asseguradas_as_oportunidades_e_facilidades_para_viver_sem_viol_ncia_preservar_sua_sa_de_f_sica_e_mental_e_seu_aperfei_oamento_moral_intelectual_e_social"
+                    android:textColor="#101010"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi11"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="280dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin"
+                app:cardBackgroundColor="#e6e4ba"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/textView12title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/lei_n_10_741"
+                    android:textColor="#101010"
+                    android:textSize="17sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/textView12text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/text10"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#101010"
+                    android:text="@string/segundo_o_artigo_99_da_lei_n_10_741_de_1_de_outubro_de_2003_considerado_crime_expor_a_perigo_a_integridade_e_a_sa_de_f_sica_ou_ps_quica_do_idoso_submetendo_o_a_condi_es_desumanas_ou_degradantes_ou_privando_o_de_alimentos_e_cuidados_indispens_veis_quando_obrigado_a_faz_lo_ou_sujeitando_o_a_trabalho_excessivo_ou_inadequado"
+                    android:textSize="15sp"
+                    android:typeface="normal" />
+
+                <Button
+                    android:id="@+id/copy_vi12"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="275dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="220dp"
+                    app:backgroundTint="#e6e4ba"
+                    app:icon="?attr/actionModeCopyDrawable"
+                    app:iconTint="#101010"
+                    tools:ignore="OnClick" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

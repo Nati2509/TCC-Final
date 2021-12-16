@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_sobre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29292B">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="59dp"
+        android:text="@string/os_repert_rios_socioculturais_podem_ser_definidos_como_o_conjunto_de_conhecimentos_refer_ncias_e_vis_es_de_mundo_obtidas_pelos_indiv_duos_ao_longo_da_vida_por_meio_de_experi_ncias_individuais"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="178dp"
+        android:text="@string/dessa_forma_o_aplicativo_referencial_tem_como_objetivo_reunir_informa_es_pertinentes_e_seguras_para_facilitar_aos_estudantes_nos_seus_estudos_de_reda_o"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="221dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="95dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

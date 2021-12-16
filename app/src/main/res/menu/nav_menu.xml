@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/categorias"
+        android:title="@string/categorias" />
+
+    <item
+        android:id="@+id/addnota"
+        android:title="@string/adicionar_nota" />
+
+    <item
+        android:id="@+id/minhasnotas"
+        android:title="@string/minhas_notas" />
+
+    <item
+        android:id="@+id/sobre"
+        android:title="@string/sobre" />
+
+
+</menu>

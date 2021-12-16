@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundoInicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29292B"
+    android:focusable="true"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <!--    <androidx.drawerlayout.widget.DrawerLayout-->
+    <!--        android:id="@+id/drawer_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <!-- OBS: mudar a cor de fundo do menu!!!!!!!!!!!!!!!!!!-->
+    <!--    </androidx.drawerlayout.widget.DrawerLayout>-->
+    <!---->
+    <!--    <com.google.android.material.navigation.NavigationView-->
+    <!--        android:id="@+id/navigation_view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_gravity="start"-->
+    <!--        android:fitsSystemWindows="true"-->
+    <!--        app:headerLayout="@layout/nav_header"-->
+    <!--        app:menu="@menu/nav_menu">-->
+    <!---->
+    <!--    </com.google.android.material.navigation.NavigationView>-->
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:fadeScrollbars="false"
+            android:horizontalSpacing="2dp"
+            android:minHeight="600dp"
+            android:padding="45dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="4dp"
+            android:verticalSpacing="3dp"
+            app:alignmentMode="alignMargins"
+            app:columnCount="2"
+            app:columnOrderPreserved="true">
+
+
+            <ImageButton
+                android:id="@+id/botao_cultura"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="1dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btncultura" />
+
+            <ImageButton
+                android:id="@+id/botao_economia"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="1dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btneconomia" />
+
+            <ImageButton
+                android:id="@+id/botao_educacao"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="1dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btneducacao" />
+
+            <ImageButton
+                android:id="@+id/botao_juventude"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnjuventude" />
+
+            <ImageButton
+                android:id="@+id/botao_meio_ambiente"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnmeioambiente" />
+
+            <ImageButton
+                android:id="@+id/botao_politica"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnpolitica" />
+
+            <ImageButton
+                android:id="@+id/botao_preconceito"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnpreconceito" />
+
+            <ImageButton
+                android:id="@+id/botao_saude"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnsaude" />
+
+            <ImageButton
+                android:id="@+id/botao_sociedade"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnsociedade" />
+
+            <ImageButton
+                android:id="@+id/botao_tecnologia"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btntecnologia" />
+
+            <ImageButton
+                android:id="@+id/botao_violencia"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_row="0"
+                app:srcCompat="@drawable/btnviolencia" />
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+

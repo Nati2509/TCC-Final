@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303030"
+    tools:context=".pagesTecnologia.DadosTecnologia">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:ignore="UselessParent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:layout_editor_absoluteX="150dp"
+           tools:layout_editor_absoluteY="217dp">
+
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="20dp" />
+
+           <TextView
+               android:id="@+id/text_da10"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Dados"
+               android:textSize="25sp"
+               android:textStyle="bold" />
+
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="20dp" />
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView1title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/adolescentes_do_brasil_usam_as_redes_sociais_em_m_dia_63_vezes_por_dia"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView1text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="“A Viacom International Media Networks, divisão da Viacom Inc, divulgou em 2019 os resultados de seu mais novo estudo, chamado ‘My Teen Life: Uma História Global’. A pesquisa foi realizada com cerca de 5200 adolescentes, com idades entre 12 e 17 anos, em 30 países – como Brasil, Alemanha, Argentina, Canadá, China, Colômbia, Itália, Japão entre outros. De acordo com dados obtidos por meio do estudo, os adolescentes brasileiros usam as redes sociais, em média, 63 vezes por dia, e 64% deles se sentem pressionados a responder as mensagens que recebem em até, no máximo, 30 minutos.”"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView1link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="370dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:textColorLink="#101010"
+                   android:text="@string/https_telaviva_com_br_04_02_2019_adolescentes_do_brasil_usam_as_redes_sociais_em_media_63_vezes_por_dia"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te1"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="430dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView2title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/mec_tem_r_220_mi_para_internet_em_escola_p_blica_mas_dinheiro_n_o_usado"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView2text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="90dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/at_o_dia_20_de_agosto_o_governo_jair_bolsonaro_n_o_havia_gasto_nenhum_centavo_dos_r_220_milh_es_reservados_para_o_programa_educa_o_conectada_que_busca_levar_internet_para_escolas_p_blicas_dificuldades_de_conex_o_est_o_entre_os_principais_entraves_para_o_ensino_h_brido_aposta_das_redes_de_ensino_na_retomada_de_aulas_presenciais"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView2link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="290dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:textColorLink="#101010"
+                   android:text="https://www.bonde.com.br/educacao/noticias/mec-tem-r-220-mi-para-internet-em-escola-publica-mas-dinheiro-nao-e-usado-544582.html"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te2"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="350dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp"
+               app:cardBackgroundColor="#e6e4ba">
+
+               <TextView
+                   android:id="@+id/textView3title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/pesquisa_mostra_que_82_7_dos_domic_lios_brasileiros_t_m_acesso_internet_2019"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView3text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="90dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/a_popula_o_brasileira_est_cada_vez_mais_conectada_isso_que_mostra_a_pesquisa_nacional_por_amostra_de_domic_lios_pnad_de_2019_realizada_pelo_instituto_brasileiro_de_geografia_e_estat_stica_ibge_de_acordo_com_o_levantamento_82_7_dos_domic_lios_nacionais_possuem_acesso_internet_um_aumento_de_3_6_pontos_percentuais_em_rela_o_a_2018"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView3link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="290dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_www_gov_br_mcom_pt_br_noticias_2021_abril_pesquisa_mostra_que_82_7_dos_domicilios_brasileiros_tem_acesso_a_internet"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te3"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="360dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView4title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/brasil_o_pa_s_mais_influenciado_por_conte_dos_de_redes_sociais"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView4text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/a_penetra_o_de_conte_dos_entre_os_usu_rios_nicos_de_redes_sociais_no_brasil_atinge_um_alcance_de_97_o_ndice_mais_alto_do_mundo_ultrapassando_pa_ses_como_china_ndia_e_estados_unidos_o_dado_faz_parte_de_uma_pesquisa_da_comscore_sobre_o_uso_de_redes_sociais_no_brasil_em_2020"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView4link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="230dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_www_convergenciadigital_com_br_internet_brasil_e_o_pais_mais_influenciado_por_conteudos_de_redes_sociais_57127_html_useractivetemplate_mobile"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te4"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="320dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView5title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/como_o_uso_excessivo_das_redes_sociais_podem_prejudicar_sua_sa_de_mental"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView5text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/as_redes_sociais_chegaram_para_ficar_e_j_existe_uma_gera_o_que_n_o_sabe_o_que_viver_sem_as_curtidas_e_compartilhamentos_pois_nasceu_em_um_mundo_j_dominado_pelo_facebook_twitter_instagram_e_outras_m_dias_apesar_de_ser_fonte_de_renda_para_milhares_de_pessoas_no_planeta_e_possibilitar_maior_intera_o_com_quem_n_o_se_convive_diariamente_ou_at_com_dolos_as_redes_sociais_podem_ser_prejudiciais_sa_de_mental_se_n_o_forem_utilizadas_de_maneira_correta_o_que_diz_uma_pesquisa_realizada_pela_institui_o_de_sa_de_p_blica_do_reino_unido_royal_society_for_public_health_em_parceria_com_o_movimento_de_sa_de_jovem1"
+                   android:textColor="#101010"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView5link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="410dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_www_medley_com_br_blog_saude_mental_setembro_amarelo"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te5"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="450dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView6title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/vazamento_de_dados_na_internet_sa_de_e_educa_o_s_o_os_mais_afetados"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView6text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/o_brasil_foi_l_der_mundial_em_vazamento_de_dados_pela_internet_segundo_uma_pesquisa_realizada_pela_kaspersky_em_2020_mas_at_o_momento_o_ano_de_2021_tem_tudo_para_superar_as_estat_sticas_de_viola_es_e_exposi_o_ocorridas_no_ano_passado_somente_nos_dois_primeiros_meses_do_ano_foram_tr_s_imensos_vazamentos_que_j_s_o_considerados_os_maiores_da_hist_ria_os_epis_dios_correspondem_a_mais_de_220_milh_es_de_dados_que_foram_parar_na_deep_web_a_parte_da_internet_que_n_o_pode_ser_encontrada_por_buscadores_como_o_google_totalizando_37_categorias_expostas"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView6link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="370dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_inforchannel_com_br_2021_03_31_vazamento_de_dados_na_internet_saude_e_educacao_sao_os_mais_afetados"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te6"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="430dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView7title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/rea_de_tecnologia_tem_crescimento_robusto_e_abre_postos_de_trabalho"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView7text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/a_pandemia_iniciada_em_2020_afetou_severamente_diversos_segmentos_da_economia_brasileira_o_que_j_n_o_estava_bom_piorou_drasticamente_o_n_mero_de_desempregados_j_ultrapassou_a_casa_dos_14_milh_es_e_dos_que_desistiram_de_procurar_uma_ocupa_o_j_s_o_quase_seis_milh_es_entretanto_no_mesmo_per_odo_a_rea_de_tecnologia_vem_surpreendendo_apresentando_crescimentos_consider_veis_e_abrindo_vagas"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView7link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="310dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_www_terra_com_br_noticias_area_de_tecnologia_tem_crescimento_robusto_e_abre_postos_de_trabalho_7d249c22bc24ddd7bcc813d23e0e0802042dtrmp_html"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te7"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="410dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView8title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/como_a_tecnologia_pode_impactar_a_educa_o_no_s_culo_21"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView8text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/os_ltimos_dezoito_meses_confirmam_a_m_xima_o_futuro_da_humanidade_ser_radicalmente_diferente_do_que_vemos_hoje_como_disse_ray_kurzweil_n_o_experimentaremos_100_anos_de_progresso_no_s_culo_21_ser_o_mais_de_20_mil_anos_de_progresso"
+                   android:textColor="#101010"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView8link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="230dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_forbes_com_br_forbes_collab_2021_08_haroldo_rodrigues_como_a_tecnologia_pode_impactar_a_educacao_do_seculo_21"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te8"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="290dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView9title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/carros_abastecidos_com_o_sol_essa_tecnologia_j_existe"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView9text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/o_que_parece_bom_demais_para_ser_verdade_um_sistema_que_j_vem_sendo_desenvolvido_e_usado_como_projeto_piloto_h_alguns_anos_pela_universidade_federal_de_santa_catarina_ufsc_e_que_mais_recentemente_ganhou_a_parceria_da_bmw_brasileira"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView9link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="230dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:textColorLink="#101010"
+                   android:text="@string/https_www_icarros_com_br_noticias_geral_carros_abastecidos_com_o_sol_essa_tecnologia_ja_existe_29437_html"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te9"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="300dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView10title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/a_l_mpada_que_dura_100_anos_e_a_obsolesc_ncia_programada"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView10text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="70dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/h_alguns_anos_o_espanhol_benito_muros_apresentou_uma_l_mpada_que_dura_100_anos_para_efeito_de_compara_o_uma_l_mpada_fluorescente_tem_vida_til_de_10_mil_horas_ou_um_pouco_mais_de_um_ano_totalizando_416_dias_de_uso_direto"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView10link"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="210dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:autoLink="web"
+                   android:textSize="15sp"
+                   android:linksClickable="true"
+                   android:text="@string/https_engenharia360_com_lampada_que_dura_100_anos_e_obsolescencia_programada"
+                   android:textColorLink="#101010"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te10"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="260dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView11title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/lei_n_12_965"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView11text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/segundo_o_artigo_7_da_lei_n_12_965_de_23_de_abril_de_2014_o_acesso_internet_essencial_ao_exerc_cio_da_cidadania"
+                   android:textColor="#101010"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te11"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="110dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/card_margin"
+               app:cardBackgroundColor="#e6e4ba"
+               app:cardCornerRadius="@dimen/card_corner_radius"
+               app:cardElevation="2dp">
+
+               <TextView
+                   android:id="@+id/textView12title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:text="@string/artigo_218_da_constitui_o_federal"
+                   android:textColor="#101010"
+                   android:textSize="17sp"
+                   android:typeface="normal" />
+
+               <TextView
+                   android:id="@+id/textView12text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/text10"
+                   android:lineSpacingExtra="4sp"
+                   android:textColor="#101010"
+                   android:text="@string/segundo_o_artigo_218_da_constitui_o_federal_o_estado_promover_e_incentivar_o_desenvolvimento_cient_fico_a_pesquisa_a_capacita_o_cient_fica_e_tecnol_gica_e_a_inova_o"
+                   android:textSize="15sp"
+                   android:typeface="normal" />
+
+               <Button
+                   android:id="@+id/copy_te12"
+                   android:layout_width="55dp"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="275dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="140dp"
+                   app:backgroundTint="#e6e4ba"
+                   app:icon="?attr/actionModeCopyDrawable"
+                   app:iconTint="#101010"
+                   tools:ignore="OnClick" />
+
+           </androidx.cardview.widget.CardView>
+
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>
